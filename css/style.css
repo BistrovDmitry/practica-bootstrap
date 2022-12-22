@@ -1,3 +1,6 @@
+*{
+    max-width: 1440px;
+}
 p{margin: none;
     display: flex;
     margin-block-start: 0em;
@@ -12,10 +15,11 @@ html{
         max-width: 1440px;
     }
     
-    .container{
+    .container-1{
     width:100%;
     display: flex;
     background-color: #F1F1F2;
+   
 
     }
     
@@ -245,3 +249,19 @@ html{
 }
 
      
+
+@media screen and (max-width: 1000px) {
+    .container-1, .container-2 , .footer{
+        display: flex;
+        flex-direction: column;
+        
+    }
+  .container-alltext-item-2, .container-all-2{
+    margin: 10px;
+  }
+.container-img-item-4, .container-img-wrapper-item-2{ margin: 10px;
+    
+
+}
+    
+  }
